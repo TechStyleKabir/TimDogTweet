@@ -1,0 +1,155 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat-black';
+}
+
+p {
+  color: #8f8f8f;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.title-heading {
+  font-size: 4rem;
+  line-height: 1.2;
+  font-weight: bolder;
+  color: #FFFFFF;
+}
+
+/* containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #ffff;
+}
+
+.white-section {
+  background-color: #ffff;
+}
+
+/* Navigation-Bar */
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Montserrat-light';
+  font-size: 1.2rem;
+}
+
+/* DOWNLOAD BUTTON */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.rotate-25 {
+  transform: rotate(25deg);
+  width: 20%;
+  position: absolute;
+  left: 56%;
+}
+
+/* Features */
+#features {
+  position: relative;
+  /* z-index: 1; */
+}
+
+.features-text {
+  font-size: 1.5rem;
+}
+
+.card-text {
+  font-size: 1.5rem;
+}
+
+/* check circle */
+.iconstyle {
+  font-size: 70px;
+  color: #ef8172;
+  padding-bottom: 1rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.iconstyle:hover {
+  color: #ff4c68;
+}
+
+/* testimonials section */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-weight: bold;
+  font-size: 4rem;
+  line-height: 1;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing section */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-text {
+  font-weight: bold;
+  font-size: 4rem;
+  line-height: 1;
+}
+
+.pricing-column {
+  padding: 3% 7%;
+}
+
+@media (max-width:995px) {
+  #title {
+    text-align: center;
+  }
+
+  .rotate-25 {
+    transform: rotate(0);
+    position: static;
+    width: 50%;
+  }
+}
+}
